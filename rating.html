@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You for Your Feedback</title>
+
+    <style>
+        body,
+        html {
+
+            margin: 0;
+
+            padding: 0;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            background-color: #ffffff;
+
+            height: 100vh;
+
+            width: 100vw;
+
+            overflow-x: hidden;
+
+        }
+
+        .container {
+
+            text-align: center;
+
+            padding: 20px;
+
+            max-width: 90%;
+
+            animation: appear 1.5s ease-in-out;
+
+            display: none;
+
+        }
+
+        .cardFeedback {
+
+            padding: 20px;
+
+            background-color: #f1f3f8;
+
+            margin: auto;
+
+            text-align: center;
+
+            border: 1px solid #E9edf4;
+
+            border-radius: 16px;
+
+            box-sizing: border-box;
+
+        }
+
+        @keyframes appear {
+
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+        .thank-you-image {
+
+            max-width: 100%;
+
+            height: auto;
+
+            margin: auto;
+
+        }
+
+        .messagesInfo p,
+        .or-info {
+
+            font-size: 0.9em;
+
+            margin: 0 0 4px 0;
+
+        }
+
+        .messagesInfo h1 {
+
+            font-size: 1.5em;
+
+            color: #373f51;
+
+            margin: 30px 0 14px 0;
+
+        }
+
+        @media (max-width: 768px) {
+
+            .cardFeedback {
+
+                padding: 15px;
+
+            }
+
+            .messagesInfo h1 {
+
+                font-size: 1.2em;
+
+            }
+
+            .messagesInfo p,
+            .or-info {
+
+                font-size: 0.8em;
+
+            }
+
+        }
+
+        .or-info {
+
+            padding-top: 12px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="conditionalElement1">
+
+        <div class="cardFeedback">
+
+            <div class="tenor-gif-embed thank-you-image" data-postid="26515070" data-share-method="host"
+                data-aspect-ratio="1.04235" data-width="50%"></div>
+
+            <script async src="https://tenor.com/embed.js"></script>
+
+            <div class="messagesInfo">
+
+                <h1>We are plagued by darkness and despair!</h1>
+
+                <p>Let us know why we deserve it?</p>
+
+            </div>
+
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+
+            <script>
+
+                hbspt.forms.create({
+
+                    region: "na1",
+
+                    portalId: "23388219",
+
+                    formId: "04252b85-652b-48f6-adc9-c0abfe4e34a5"
+
+                });
+
+            </script>
+
+        </div>
+
+        <p class="or-info">Reach out to us at <a href="mailto:online@ofofo.io">online@ofofo.io</a></p>
+
+    </div>
+
+    <div class="container" id="conditionalElement2">
+
+        <div class="cardFeedback">
+
+            <div class="tenor-gif-embed thank-you-image" data-postid="14000353216823708434" data-share-method="host"
+                data-aspect-ratio="1" data-width="50%"></div>
+
+            <script async src="https://tenor.com/embed.js"></script>
+
+            <div class="messagesInfo">
+
+                <h1>We are drowning in mediocrity!</h1>
+
+                <p>Throw us a lifeline. Do let us know below how we can improve?</p>
+
+            </div>
+
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+
+            <script>
+
+                hbspt.forms.create({
+
+                    region: "na1",
+
+                    portalId: "23388219",
+
+                    formId: "44a7582d-f45e-4e99-932c-8a0f15eea3e0"
+
+                });
+
+            </script>
+
+        </div>
+
+        <p class="or-info">Reach out to us at <a href="mailto:online@ofofo.io">online@ofofo.io</a></p>
+
+    </div>
+
+    <div class="container" id="conditionalElement3">
+        <div class="cardFeedback">
+            <div class="tenor-gif-embed thank-you-image" data-postid="15840669" data-share-method="host"
+                data-aspect-ratio="1.82857" data-width="100%"></div>
+            <script async src="https://tenor.com/embed.js"></script>
+
+            <div class="messagesInfo">
+                <h1>You just made our day! Here's 2 tacos.</h1>
+                <p>We would love to enhance your experience to the next level. Do let us know below?</p>
+            </div>
+        </div>
+        <p class="or-info">Reach out to us at <a href="mailto:online@ofofo.io">online@ofofo.io</a></p>
+    </div>
+
+</body>
+<script>
+    var params = getQueryParams();
+    var conditionalElement1 = document.getElementById('conditionalElement1');
+    var conditionalElement2 = document.getElementById('conditionalElement2');
+    var conditionalElement3 = document.getElementById('conditionalElement3');
+
+    function getQueryParams() {
+        var queryParams = {};
+        var queryString = window.location.search;
+        queryString = queryString.substring(1);
+        var queryParamsArray = queryString.split('&');
+        for (var i = 0; i < queryParamsArray.length; i++) {
+            var pair = queryParamsArray[i].split('=');
+            var key = decodeURIComponent(pair[0]);
+            var value = decodeURIComponent(pair[1]);
+            queryParams[key] = value;
+        }
+        return queryParams;
+    }
+
+    console.log("", params)
+
+    if (params.rating === "1" || params.rating === "2" || params.rating === "3" || params.rating === "4" || params.rating === "5") {
+        conditionalElement1.style.display = 'block';
+    } else if (params.rating === "6" || params.rating === "7" || params.rating === "8") {
+        conditionalElement2.style.display = 'block';
+    } else if (params.rating === "9" || params.rating === "10") {
+        conditionalElement3.style.display = 'block';
+    }
+</script>
+
+</html>
